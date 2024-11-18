@@ -1,0 +1,85 @@
+/* Configurações Gerais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #f4f4f4; /* Fundo mais claro, suave para os olhos */
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: rgba(184, 0, 0, 0.85); /* Transparência no fundo */
+    color: #ffffff;
+    padding: 25px 0;
+    border-bottom: 4px solid #8b0000;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Seção de Navegação */
+.navigation-section {
+    margin: 60px auto;
+    padding: 30px;
+    max-width: 960px;
+    background: rgba(0, 0, 0, 0.7); /* Fundo escuro translúcido */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Botões Estilizados */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 12px 25px; /* Botões menores */
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #b80000;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn-link:hover {
+    background: #ffffff;
+    color: #b80000;
+    border: 2px solid #b80000;
+    transform: translateY(-2px);
+}
+
+/* Rodapé */
+footer {
+    background: rgba(184, 0, 0, 0.85);
+    color: #ffffff;
+    padding: 18px 0;
+    margin-top: 40px;
+    border-top: 4px solid #8b0000;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
